@@ -11,3 +11,5 @@ libraryDependencies += "commons-lang" % "commons-lang" % "2.6"
 libraryDependencies += "com.fasterxml.jackson.core" % "jackson-databind" % "2.5.1"
 
 mainClass in (Compile, run) := Some("JsonSchema2PojoExample")
+
+targetPackage in jsonSchema2PoJo := "ExamplePoJo"

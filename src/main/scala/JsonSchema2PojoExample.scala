@@ -1,4 +1,5 @@
-import PoJo.Example
+import ExamplePoJo.Example
+
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.module.SimpleModule
 
